@@ -1,0 +1,19 @@
+#cnv{
+    border: red 1px solid;
+}
+body{
+    display: flex;
+}
+.block{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+#screen{
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
+.newgame{
+    display: block;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}

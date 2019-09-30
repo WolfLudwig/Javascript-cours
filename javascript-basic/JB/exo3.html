@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let majeur = 18;
+        let nb = prompt("entrez votre age");
+        age = Number(nb);
+        while(isNaN(age))
+        {
+            age = prompt("retapez votre age")
+        }
+
+        if (age >= majeur) { 
+            alert("majeur");
+            } else { 
+                let mineur = majeur - age
+            alert("vous serez majeur dans " + mineur + " ans");
+            }
+
+    </script>
+</body>
+</html>

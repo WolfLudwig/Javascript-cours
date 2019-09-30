@@ -1,0 +1,114 @@
+body {
+margin:0;
+padding:0;
+background-image: url('../img/fond.jpg')
+}
+
+h1{
+  margin-left:26%;
+  padding:10px;
+  font-size:35px;
+  color:#049ff8;
+}
+
+.NewGame__btn{
+  font-family: 'darksoul';
+  font-size:25px;
+  border:3px solid black;
+  border-radius:50px; 
+  padding:15px 80px 15px 80px;
+  background:#0d0273;
+  color:#049ff8;
+  font-weight:bolder;
+}
+
+
+.NewGame__btn:hover{
+  color:black;
+}
+
+
+.card{
+  border:none;
+}
+.card img{
+  width:320px;
+  height:300px;
+}
+canvas {
+
+  border: 1px solid black;
+
+}
+
+.answer__field{
+  background: rgba(00, 00, 00, 0.5);
+  border:1px;
+  padding:10px;
+  color:white;
+  width:100px;
+  margin-left:100px;
+}
+
+.guess__btn{
+  font-size:15px;
+  padding:15px;
+  border:3px solid black;
+  border-radius:50px; 
+  background:#0d0273;
+  color:#049ff8;
+  font-weight:bolder;
+  margin-left:60px;
+}
+
+.guess__btn:hover{
+  color:black;
+}
+
+.guess__field{
+  margin-left:80px;
+}
+
+@media (min-width:900px) {
+
+   h1{
+    margin-left:40%;
+    padding:25px;
+
+  }
+
+.card{
+  flex:0 40%;
+  background: none;
+}
+
+.card-body .NewGame__btn{
+  margin-left:20px;
+}
+  .card img{
+    width:400px;
+    height:320px;
+    margin: 0 auto;
+  }
+.background{
+  display:flex;
+  flex-direction: row-reverse;
+  flex-wrap:wrap;
+}
+
+canvas{
+  margin-left:0;
+  background: rgba(00, 00, 00, 0.5)
+}
+
+.container{
+  width:30%;
+  margin-top:10%;
+}
+
+.NewGame__btn{
+  padding:10px 50px 10px 50px;
+
+}
+
+}

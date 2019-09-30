@@ -1,0 +1,42 @@
+{
+    "name": "boilerplate-webpack",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "webpack-dev-server --env.NODE_ENV=development --open",
+        "build": "webpack --env.NODE_ENV=production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.5.0",
+        "@babel/core": "^7.5.4",
+        "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
+        "@babel/polyfill": "^7.4.4",
+        "@babel/preset-env": "^7.5.4",
+        "babel-eslint": "^8.2.6",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^0.1.19",
+        "core-js": "^3.1.4",
+        "css-hot-loader": "^1.4.2",
+        "css-loader": "^1.0.0",
+        "eslint": "^5.4.0",
+        "file-loader": "^1.1.11",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.5",
+        "node-sass": "^4.9.3",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "raw-loader": "^0.5.1",
+        "sass-loader": "^7.0.3",
+        "source-map-support": "^0.5.12",
+        "style-loader": "^0.21.0",
+        "uglifyjs-webpack-plugin": "^2.1.3",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2",
+        "write-file-webpack-plugin": "^4.5.0"
+    }
+}

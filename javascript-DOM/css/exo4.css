@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.box{
+    background-color: beige;
+    margin: 5rem 30%;
+    padding: 2rem 0 0 0;
+    border: 1px solid #000000;
+    border-radius: 15px 0 15px 0;
+}
+#quote{
+    margin: 5rem 20%;
+}
+
+button{
+    margin-left: 70%;
+    margin-bottom: 5%;
+    padding: 0.5rem 1rem;
+    border: #000000 solid 1px;
+    border-radius: 0 15px 0 15px;
+}
